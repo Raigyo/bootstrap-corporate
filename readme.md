@@ -53,4 +53,4 @@ Yeah, we already said that. It's just to be sure you really understand.
 
 ## Have fun and conquer the world  
 
-![Minus & Cortex](cortex.gif "conquer the world!")
+![Minus & Cortex](img/cortex.gif "conquer the world!")
