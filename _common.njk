@@ -20,16 +20,23 @@
 
   </head>
   <body>
-    
+
     <div class="container">
       <header>
-        <h1>BeCode / JavaScript for the Web</h1>
+        <h1>BeCode / Bootstrap Exercice</h1>
         <h2>
-          <strong><i class="fas fa-arrow-right"></i> Insert exercise name here <i class="fas fa-arrow-left"></i></strong>
+          <strong><i class="fas fa-arrow-right"></i>  Innovation.io <i class="fas fa-arrow-left"></i></strong>
         </h2>
       </header>
       <div class="content">
         {% block content %}
+        <nav>
+          <ul class="navbar navbar-default">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Team page</a></li>
+            <li><a href="#">Contact page</a></li>
+          </ul>
+        </nav>
         {% endblock %}
       </div>
     </div>
@@ -37,4 +44,3 @@
     <script src="./script.js"></script>
   </body>
 </html>
-
