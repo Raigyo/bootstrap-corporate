@@ -7,6 +7,12 @@
 /*
   If you need some CSS for any reason you can put it here.
 */
+.team {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Style all font awesome icons */
 .follow {
@@ -44,4 +50,25 @@
 .fa-linkedin {
   background: #3295C3;
   color: white;
+}
+
+//bloquote
+.thumbnailBq {
+    position: relative;
+}
+
+.captionBq {
+    position: absolute;
+    font-size: 2em;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+#client {
+  border-radius: 50%;
+}
+
+#box-client {
+  align: center;
 }
