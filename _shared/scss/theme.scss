@@ -8,9 +8,9 @@ Shared styles for javascript exercices
 */
 
 :root {
-  --becode-main-blue: #16232E;
-  --becode-light-blue: #63C3D1;
-  --becode-alt-blue: #245060;
+  --innovation-main-blue: #343a40;
+  --innovation-light-blue: #63C3D1;
+  --innovation-alt-blue: #245060;
 }
 
 html {
@@ -19,28 +19,39 @@ html {
 
 body {
   height: 100%;
-  padding-top: 17.5vh;
-  background: var(--becode-main-blue) top .5rem center no-repeat;
-  background-size: auto 25vh;
+  /*padding-top: 17.5vh;*/
+  background: var(--innovation-main-blue) top .5rem center no-repeat;
+  /*background-size: auto 25vh;*/
 }
 
 .container {
   position: relative;
+  width: 100%;
 }
 
 .content {
   min-height: 25vh;
   background: white;
-  box-shadow: .25rem .25rem 2.5rem var(--becode-main-blue);
-  padding: 5rem 2rem 2rem;
+  box-shadow: .25rem .25rem 2.5rem var(--innovation-main-blue);
+  padding: 0px auto;
+  width: 100%;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+/*
 header h1 {
   position: absolute;
   top: -1rem;
   left: -1rem;
   padding: .4rem .6rem .6rem;
-  background: var(--becode-light-blue);
+  background: var(--innovation-light-blue);
   font-size: 1.5rem;
   color: white;
   transform: rotate(-5deg);
@@ -52,7 +63,7 @@ header h2 {
   top: 1.6rem;
   left: 2rem;
   padding: .5rem 1rem .6rem 1rem;
-  background: var(--becode-main-blue);
+  background: var(--innovation-main-blue);
   font-size: 1rem;
   color: white;
   transform: rotate(.5deg);
@@ -66,10 +77,11 @@ header h2 span {
   left: -3.75rem;
   width: 5.2rem;
   height: 5.2rem;
-  background: var(--becode-alt-blue);
+  background: var(--innovation-alt-blue);
   border-radius: 100%;
   box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, .25);
   line-height: 5.2rem;
   text-align: center;
   transform: rotate(7.5deg);
 }
+*/
