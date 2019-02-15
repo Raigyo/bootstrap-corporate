@@ -2,26 +2,31 @@
 
 {% block content %}
 <h2 class="titleH2 display-3">Contacts us</h2>
-
-<form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+<article>
+  <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
     </div>
+    <div class="form-group"> <!-- Message field -->
+      <label class="control-label " for="message">Message</label>
+      <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+</article>
+<article>
+  <div class="container-fluid googlemap">
+    <div class="row">
+      <div class="col-md-8">
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+      </div>
+      <div class="col-md-4">
+        <p>We are a one-stop solution for the startups as well as the established brands. We offer website designing, graphics designing, Web Development, Digital Marketing and IT management solutions without compromising with quality and perfection. Our aim is to build a long-term customer relationship with our clients and earn their trust by delivering the best output in web development company. We thrive to take ahead the legacy of digital marketing with web development using the best of our services and potential. Our trained and skilled employees are expert in delivering the best digital marketing solutions.
+        </p>
+      </div>
   </div>
-  <div class="form-group"> <!-- Message field -->
-    <label class="control-label " for="message">Message</label>
-    <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Send</button>
-</form>
-
-<!--Google map-->
-<p>Address: Kulturhuset, Sergels Torg 3-5, 103 27 Stockholm</p>
-<div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-  <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-    style="border:0" allowfullscreen></iframe>
-</div>
-<!--Google Maps-->
+</article>
 {% endblock %}

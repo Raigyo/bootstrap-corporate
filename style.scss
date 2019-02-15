@@ -98,27 +98,19 @@ form{
   color: #11092d;
 }
 
-//Google maps
-.map-container-2{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
-.map-container-2 iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
+
 
 //presentation
 .presentation {
-
   padding-top: 50px;
-  width: 80%;
   font-size: 2em;
   color:#ffffff;
-  font-weight:300
+  font-weight:300;
+  width: 90%;
+  text-align: justify;
+}
+
+//google map
+.googlemap{
+  padding-top:50px;
 }
