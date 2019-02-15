@@ -7,11 +7,19 @@
 /*
   If you need some CSS for any reason you can put it here.
 */
-.team {
+.titleH2 {
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+form{
+  width: 80%;
+  align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* Style all font awesome icons */
@@ -73,4 +81,44 @@
 .blockquote{
   font-size: 30px;
   color: white;
+}
+
+.blockquote{
+  padding: 50px;
+}
+
+//Cards
+.card{
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #13002d 5px;
+}
+
+.container-gallery{
+  color: #11092d;
+}
+
+//Google maps
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+//presentation
+.presentation {
+
+  padding-top: 50px;
+  width: 80%;
+  font-size: 2em;
+  color:#ffffff;
+  font-weight:300
 }
