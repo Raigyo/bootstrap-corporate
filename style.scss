@@ -81,11 +81,9 @@ form{
 .blockquote{
   font-size: 30px;
   color: white;
-}
-
-.blockquote{
   padding: 50px;
 }
+
 
 //Cards
 .card{
@@ -110,18 +108,31 @@ form{
 
 //google map
 .googlemap{
-  padding-bottom:50px;
+  //padding-bottom:25px;
   color:white;
   font-size: 1.2em;
 }
 
 //form
 .btnForm{
-  align: right;
+  //padding-left: 82%;
+  float: right;
+  //align: right;
 }
 
 .formSend{
-  padding-left: 10%;
-  padding-right: 10%;
-  width: 80%;
+  //padding-left: 10%;
+  //padding-right: 10%;
+  padding-top: 8%;
+  width: 100%;
+}
+
+.blockquote2{
+  font-size: 2em;
+  color: white;
+}
+
+label {
+  color: white;
+  font-size: 1.1em;
 }
