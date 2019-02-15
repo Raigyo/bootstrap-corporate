@@ -98,8 +98,6 @@ form{
   color: #11092d;
 }
 
-
-
 //presentation
 .presentation {
   padding-top: 50px;
@@ -118,6 +116,12 @@ form{
 }
 
 //form
-.btn-primary{
-  align:right;
+.btnForm{
+  align: right;
+}
+
+.formSend{
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
 }
