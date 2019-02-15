@@ -3,6 +3,39 @@
 {% block content %}
 <h2 class="titleH2 display-3">Contacts us</h2>
 <article>
+  <div class="container-fluid googlemap">
+    <div class="row">
+      <div class="col-md-8">
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=stockolm&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+      <div class="col-md-4">
+        <h3>Here is our HQ</h3>
+        <address>
+          <p><strong>Innovation.io<strong></p>
+          <p>Odensvikgodmorgon Street 66, 11630 Stockholm, Sweden</p>
+          <p>Tel: +46 1234 5678</p>
+          <p>Fax: +46 1234 5679</p>
+        </address>
+      </div>
+  </div>
+</article>
+
+<article class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <blockquote class="blockquote">
+          <p class="mb-0">If you want to contact us, use the form below! We will answer you as soon as possible! I promise!</p>
+          <footer class="blockquote-footer">Kitten DRÖNA
+          </footer>
+      </blockquote>
+    </div>
+    <div class="col-md-6">
+      <img src="./img/member7.jpg" class="img-thumbnail" style="width:80%">
+    </div>
+  </div>
+</article>
+
+<article>
   <form>
     <div class="form-row">
       <div class="form-group col-md-6">
@@ -17,16 +50,5 @@
     <button type="submit" class="btn btn-primary">Send</button>
   </form>
 </article>
-<article>
-  <div class="container-fluid googlemap">
-    <div class="row">
-      <div class="col-md-8">
-        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
-      </div>
-      <div class="col-md-4">
-        <p>We are a one-stop solution for the startups as well as the established brands. We offer website designing, graphics designing, Web Development, Digital Marketing and IT management solutions without compromising with quality and perfection. Our aim is to build a long-term customer relationship with our clients and earn their trust by delivering the best output in web development company. We thrive to take ahead the legacy of digital marketing with web development using the best of our services and potential. Our trained and skilled employees are expert in delivering the best digital marketing solutions.
-        </p>
-      </div>
-  </div>
-</article>
+
 {% endblock %}
