@@ -1,6 +1,8 @@
 
 # Becode Template for JavaScript Exercises
 
+[Githubpage](https://raigyo.github.io/bootstrap-corporate/)
+
 # Bootstrap Exercice - Innovation.io
 
 Here you will create individually a website using [Bootstrap](https://getbootstrap.com/). The goal is to practise HTML and web design in a corporate environment, using Bootstrap as a tool to facilitate that goal.
