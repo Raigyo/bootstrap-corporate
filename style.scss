@@ -65,10 +65,12 @@
     width: 100%;
 }
 
-#client {
-  border-radius: 50%;
+#clientQuote {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
-#box-client {
-  align: center;
+.blockquote{
+  font-size: 30px;
+  color: white;
 }
