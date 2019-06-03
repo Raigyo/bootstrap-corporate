@@ -3,11 +3,12 @@
 
 ![Becode logo](https://raw.githubusercontent.com/Raigyo/react-character-manager/master/img/becode-logo.png)
 
-[Githubpage](https://raigyo.github.io/bootstrap-corporate/)
+
 
 *February 2019*
 
-> 🔨 Creation of a corporate website using Bootstrap
+> 🔨 Creation of a corporate website using Bootstrap. [Githubpage](https://raigyo.github.io/bootstrap-corporate/)
+
 
 * * *
 
